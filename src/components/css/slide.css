@@ -2,10 +2,16 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 50%;
+  display: flex;
+}
+
+.slideshowBox {
+  display: block;
+  max-width: 70vw;
   position: relative;
-  margin: auto;
+  margin: 4vw;
   border: solid black 5px;
+  margin-top: 2vw;
 }
 
 /* Hide the images by default */
@@ -71,7 +77,8 @@
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
-  display: inline-block;
+  /* display: inline-block; */
+  display: none;
   transition: background-color 0.6s ease;
 }
 
