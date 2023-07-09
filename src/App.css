@@ -58,6 +58,57 @@ h2 {
 
 /* end of header */
 
+/* Home */
+.homeImg img {
+  width: 50%;
+  margin: 10%;
+  left: 10%;
+  height: 140%;
+}
+
+.homeBg {
+  height: 100vh;
+  background: rgb(64,0,0);
+  background: linear-gradient(180deg, rgba(64,0,0,1) 0%, rgba(135,0,0,1) 49%, rgba(182,0,0,1) 100%);
+}
+
+.homeBg h3 {
+  
+}
+
+.pizza-image {
+  position: relative;
+  left: 30%;
+}
+
+.steam-animation {
+  position: absolute;
+  top: -50%;
+  left: 0%; 
+  transform: translateX(-50%);
+  animation-name: steam;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes steam {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-20px); /* Adjust the steam's upward movement */
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-50px); /* Adjust the steam's final position */
+  }
+}
+
+
+
 /* pages */
 .pagesSection {
   width: 90%;

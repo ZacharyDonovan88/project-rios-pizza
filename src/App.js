@@ -48,9 +48,10 @@ function App() {
     <ApolloProvider client={client}>
       <Router>
         <>
-          <Home />
           <Navbar />
           <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/Home" element={<Home />} />
             <Route exact path="/Pizza" element={<Pizza />} />
             <Route exact path="/Sides" element={<Sides />} />
             <Route exact path="/Drinks" element={<Drinks />} />

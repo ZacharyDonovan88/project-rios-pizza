@@ -6,7 +6,15 @@ import "./css/navbar.css";
 function Home() {
   return (
     <nav>
+      <div>
+        <h1>Rios Pizza</h1>
+      </div>
       <ul>
+        <li>
+          <NavLink exact to="/home" activeClassName="active">
+            Home
+          </NavLink>
+        </li>
         <li>
           <NavLink exact to="/pizza" activeClassName="active">
             Pizza

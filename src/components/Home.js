@@ -69,10 +69,18 @@ function showSlides(n) {
   return (
     <>
     <div className="">  
-      <div className="header">
+      {/* <div className="header">
         <div className="headerBg">
           <h1>Rios Pizza</h1>
         </div>
+      </div> */}
+    </div>
+    <div className="homeBg">
+      <div className="homeImg pizza-image">
+        <h3>pizza</h3>
+        <img src={require('./assets/images/homeImg.png')} alt="Fresh Pizza"/>
+        <img class="steam-animation" src={require('./assets/images/steam.png')} alt="Steam" />
+        <img class="steam-animation" src={require('./assets/images/smoke.png')} alt="Steam" />
       </div>
     </div>
       <div className="slideshow-container">
