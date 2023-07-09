@@ -62,23 +62,40 @@ h2 {
 .homeImg img {
   width: 50%;
   margin: 10%;
-  left: 10%;
-  height: 140%;
+  left: 0%;
+  
 }
 
 .homeBg {
-  height: 100vh;
+  height: 90vh;
   background: rgb(64,0,0);
   background: linear-gradient(180deg, rgba(64,0,0,1) 0%, rgba(135,0,0,1) 49%, rgba(182,0,0,1) 100%);
 }
 
-.homeBg h3 {
-  
+.homeText {
+  display: flex;
+  position: relative;
+}
+
+.homeText h3 {
+  position: absolute;
+  font-family: Bradley Hand, cursive;
+  color: white;
+  width: 40%;
+  font-size: 5vw;
+  left: -30%;
+  top: 0%;
+}
+
+.homePizzaImg {
+  height: 10%;
+  display: block;
 }
 
 .pizza-image {
   position: relative;
-  left: 30%;
+  left: 35%;
+  top: 20%;
 }
 
 .steam-animation {
@@ -90,6 +107,7 @@ h2 {
   animation-duration: 3s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  z-index: 1;
 }
 
 @keyframes steam {
@@ -187,7 +205,7 @@ h2 {
   float: right;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .footer {
     height: 150px;
   }
@@ -207,4 +225,4 @@ h2 {
   .loginStyle input{
     margin-top: 19px;
   }
-}
+} */

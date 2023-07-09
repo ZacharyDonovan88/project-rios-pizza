@@ -3,10 +3,11 @@ import { NavLink } from "react-router-dom";
 import "../App.css";
 import "./css/navbar.css";
 
-function Home() {
+function Navbar() {
   return (
+    
     <nav>
-      <div>
+      <div className="navTitle">
         <h1>Rios Pizza</h1>
       </div>
       <ul>
@@ -55,4 +56,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Navbar;

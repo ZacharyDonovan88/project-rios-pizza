@@ -1,43 +1,50 @@
 nav {
-    height: 90px;
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    height: 15%;
-    z-index: 1;
-    position: absolute;
-    padding: 1rem;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  z-index: 1;
+  height: 12vh;
 }
 
+.navTitle {
+  display: flex;
+  position: absolute;
+  
+}
+
+.navTitle h1 {
+  width: 30vh;
+  position: relative;
+  margin: 0;
+  flex: 1;
+  font-size: 5vh;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-
-li {
-    display: inline-block;
-    padding: 16px;
-  }
-
-li a {
-    display: flex;
-    padding: 8px;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 1.8vh;
-    z-index: 20;
-  }
-  
-li a:hover {
-  color: #fff700;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  z-index: 2;
 }
 
+
+li {
+  padding: 16px 12px;
+}
+
+li a {
+  display: flex;
+  padding: 8px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 2.2vh;
+  z-index: 20;
+}
 
 .logSign {
   justify-content: right;
@@ -49,6 +56,7 @@ li a:hover {
   color: #fff700;
   background-color: transparent;
 }
+
 
 @media screen and (max-width: 600px) {
     nav {
