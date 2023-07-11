@@ -7,6 +7,7 @@ import {
 } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import "./App.css";
 
 // Pages
 import Home from "./components/Home.js";
@@ -47,21 +48,21 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <Router>
-        <>
+        <div className='content-container'>
           <Navbar />
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route exact path="/Home" element={<Home />} />
-            <Route exact path="/Pizza" element={<Pizza />} />
-            <Route exact path="/Sides" element={<Sides />} />
-            <Route exact path="/Drinks" element={<Drinks />} />
-            <Route exact path="/Desserts" element={<Desserts />} />
-            <Route exact path="/Deals" element={<Deals />} />
-            <Route exact path="/Login" element={<Login />} /> 
-            <Route exact path="/Sign Up" element={<SignUp />} /> 
-          </Routes>
-          <Footer />
-        </>
+            <Routes>
+              <Route exact path="/" element={<Home />} />
+              <Route exact path="/Home" element={<Home />} />
+              <Route exact path="/Pizza" element={<Pizza />} />
+              <Route exact path="/Sides" element={<Sides />} />
+              <Route exact path="/Drinks" element={<Drinks />} />
+              <Route exact path="/Desserts" element={<Desserts />} />
+              <Route exact path="/Deals" element={<Deals />} />
+              <Route exact path="/Login" element={<Login />} /> 
+              <Route exact path="/Sign Up" element={<SignUp />} /> 
+            </Routes>
+        </div>
+        <Footer />
       </Router>
     </ApolloProvider>
   );
