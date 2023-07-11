@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/project-rios-pizza/static/css/main.e5f63378.css",
-    "main.js": "/project-rios-pizza/static/js/main.14d306e1.js",
+    "main.css": "/project-rios-pizza/static/css/main.d23e3377.css",
+    "main.js": "/project-rios-pizza/static/js/main.f3d703d0.js",
     "static/js/787.3d6f49c7.chunk.js": "/project-rios-pizza/static/js/787.3d6f49c7.chunk.js",
-    "static/media/mainBg.jpg": "/project-rios-pizza/static/media/mainBg.3370912591a8522b7dff.jpg",
     "static/media/freshPizza.jpg": "/project-rios-pizza/static/media/freshPizza.43ebafd137041b072c6b.jpg",
     "static/media/sup.jpg": "/project-rios-pizza/static/media/sup.f7e71d5d537ce725aefb.jpg",
     "static/media/mar.jpg": "/project-rios-pizza/static/media/mar.73f6815b60a21e93cb15.jpg",
@@ -27,6 +26,7 @@
     "static/media/signup.jpg": "/project-rios-pizza/static/media/signup.494e05c4238af4e16f14.jpg",
     "static/media/vinesL.png": "/project-rios-pizza/static/media/vinesL.d05d463881a5ccf38b13.png",
     "static/media/vinesR.png": "/project-rios-pizza/static/media/vinesR.d05d463881a5ccf38b13.png",
+    "static/media/wood.jpg": "/project-rios-pizza/static/media/wood.3ea7e04b399aa6e070c1.jpg",
     "static/media/lemonCan.jpg": "/project-rios-pizza/static/media/lemonCan.b6a8613e82d2cf278056.jpg",
     "static/media/coke.jpg": "/project-rios-pizza/static/media/coke.d2ec99bc4cfdfefa40a7.jpg",
     "static/media/fanta.jpg": "/project-rios-pizza/static/media/fanta.f1ccd375e62376490c85.jpg",
@@ -34,12 +34,12 @@
     "static/media/sprite.jpg": "/project-rios-pizza/static/media/sprite.17e854f07ca74d280f3c.jpg",
     "static/media/solo.jpg": "/project-rios-pizza/static/media/solo.93695a26b031563bc532.jpg",
     "index.html": "/project-rios-pizza/index.html",
-    "main.e5f63378.css.map": "/project-rios-pizza/static/css/main.e5f63378.css.map",
-    "main.14d306e1.js.map": "/project-rios-pizza/static/js/main.14d306e1.js.map",
+    "main.d23e3377.css.map": "/project-rios-pizza/static/css/main.d23e3377.css.map",
+    "main.f3d703d0.js.map": "/project-rios-pizza/static/js/main.f3d703d0.js.map",
     "787.3d6f49c7.chunk.js.map": "/project-rios-pizza/static/js/787.3d6f49c7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5f63378.css",
-    "static/js/main.14d306e1.js"
+    "static/css/main.d23e3377.css",
+    "static/js/main.f3d703d0.js"
   ]
 }
