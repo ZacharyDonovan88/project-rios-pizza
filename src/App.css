@@ -73,7 +73,6 @@ h1 {
 
 /* Home */
 .home-container {
-  
 }
 
 .homeImg img {
@@ -92,17 +91,27 @@ h1 {
 .homeText {
   display: flex;
   position: relative;
-  left: -30%;
-  bottom: 10%;
-  height: 100%;
+  left: -25%;
+  width: 70%;
 }
 
 .homeText h3 {
+  display: flex;
   position: absolute;
   font-family: Bradley Hand, cursive;
   color: white;
-  width: 40%;
+  width: 70%;
   font-size: 5vw;
+  margin-left: -20vw;
+  margin-top: 20vh;
+  -webkit-text-stroke: 3px rgb(255, 85, 0);
+	-webkit-text-fill-color: white;
+  text-shadow: 0px 4px 4px #282828;
+  
+}
+
+.homeBanner-container {
+  width: 90%;
 }
 
 .homePizzaImg {
@@ -116,16 +125,39 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   align-items: center;
+  width: 90%;
 }
 
 @media screen and (max-width: 600px) {
+  .homeBanner-container {
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    transform: translateX(-2%);
+  }
+  .homeText h3 {
+    transform: translateX(30%);
+    font-size: 5.5vh;
+    position: absolute;
+  }
+  .homeText {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  .homePizzaImg-container {
+    width: 100vh;
+  }
 }
 
 .pizzaSteam-container {
   position: relative;
   display: flex;
   right: 10%;
-  margin-top: 10%;
+  margin-top: 25vh;
+  width: 100vw;
 }
 
 .homePizzaImg-container {
