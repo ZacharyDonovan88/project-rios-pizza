@@ -47,8 +47,8 @@ const client = new ApolloClient({
 function App() {
   return (
     <ApolloProvider client={client}>
-      <Router>
-        <div className='content-container'>
+      <div className='content-container'>
+        <Router>
           <Navbar />
             <Routes>
               <Route exact path="/project-rios-pizza" element={<Home />} />
@@ -61,9 +61,9 @@ function App() {
               <Route exact path="/Login" element={<Login />} /> 
               <Route exact path="/Sign Up" element={<SignUp />} /> 
             </Routes>
-        </div>
-        <Footer />
-      </Router>
+        </Router>
+      </div>
+      <Footer />
     </ApolloProvider>
   );
 }

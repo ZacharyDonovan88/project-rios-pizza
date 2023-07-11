@@ -1,11 +1,37 @@
 nav {
-  background: rgb(64, 0, 0);
-  background: linear-gradient(0deg, rgba(80, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
+  position: relative;
+  overflow: hidden;
+  padding: 0 0 10px 0;
+}
+
+.nav-inner {
+  background: linear-gradient(180deg, rgba(90,0,0,1) 0%, rgba(130,0,0,1) 50%, rgba(200,0,0,1) 100%);
   display: flex;
   align-items: center;
   padding: 1rem;
   z-index: 1;
   height: 12vh;
+  position: relative;
+}
+
+nav::before {
+  content: "";
+  display: block;
+  background: linear-gradient(
+    90deg,
+    rgba(200,0,0,1) 30%,
+    #fff 30%,
+    #fff 75%,
+    rgba(200,0,0,1) 75%
+  );
+  background-size: 40px;
+  position: absolute;
+  top: -10000px;
+  left: -500px;
+  bottom: -10000px;
+  right: -500px;
+  transform: rotate(45deg);
+  z-index: -1;
 }
 
 .navTitle {
@@ -28,9 +54,10 @@ ul {
   padding: 0;
   display: grid;
   grid-template-columns: repeat(8, auto);
-  justify-content: center;
   flex: 1;
   z-index: 2;
+  justify-content: right;
+  padding-right: 2.3vw;
 }
 
 li {
@@ -45,8 +72,10 @@ li a {
   display: flex;
   padding: 8px;
   color: rgb(255, 255, 255);
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
   text-decoration: none;
-  font-size: 2.2vh;
+  font-size: 3vh;
   z-index: 20;
 }
 
@@ -62,7 +91,7 @@ li a {
 }
 
 @media screen and (max-width: 600px) {
-  nav {
+  .nav-inner {
     height: auto;
     padding: 1rem;
     flex-direction: column;
