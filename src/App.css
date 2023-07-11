@@ -98,7 +98,7 @@ h1 {
 .homeText h3 {
   display: flex;
   position: absolute;
-  font-family: Bradley Hand, cursive;
+  font-family: Bookman, URW Bookman L, serif;
   color: white;
   width: 70%;
   font-size: 5vw;
