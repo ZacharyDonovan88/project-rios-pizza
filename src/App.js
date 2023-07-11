@@ -51,7 +51,7 @@ function App() {
         <div className='content-container'>
           <Navbar />
             <Routes>
-              <Route exact path="/" element={<Home />} />
+              <Route exact path="/project-rios-pizza" element={<Home />} />
               <Route exact path="/Home" element={<Home />} />
               <Route exact path="/Pizza" element={<Pizza />} />
               <Route exact path="/Sides" element={<Sides />} />
