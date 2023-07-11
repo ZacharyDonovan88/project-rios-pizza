@@ -3,6 +3,9 @@
 ## User Story
 AS A pizza bar buisness owner I WANT customers to be able to look at our website to view our menu items and deals WHEN the user opens the pizza icons I want them to see the ingredients and the prices
 
+## Link to Git Pages
+https://zacharydonovan88.github.io/project-rios-pizza/
+
 ## Description
 This is a fun personal project.
 
